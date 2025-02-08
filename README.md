@@ -13,9 +13,9 @@ See the AWS Deployment Instructions.docx for a step-by-step guide on deploying t
 ### Developers:
 
 to run the project:
-1. `npm install`
-2. `npm install react-router-dom`
-3. `npm run dev`
+1. `npm install` 
+2. `npm run dev`
+
 
 to compile the project into static files:
 1. `npm run build`
