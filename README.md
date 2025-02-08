@@ -12,11 +12,13 @@ See the AWS Deployment Instructions.docx for a step-by-step guide on deploying t
 
 ### Developers:
 
-to run the project:
+to run and preview the project locally:
 1. `npm install` 
 2. `npm run dev`
 
 
-to compile the project into static files:
-1. `npm run build`
-2. The output, located in the dist folder, can be deployed to any static hosting service such as Azure Static Web Apps, AWS Amplify, or GCP Static Website Hosting.
+to compile the project into static files and deploy:
+1. `npm install`
+2. `npm run build`
+3. The output, located in the dist folder, can be deployed to any static hosting service such as Azure Static Web Apps, AWS Amplify, or GCP Static Website Hosting.
+
