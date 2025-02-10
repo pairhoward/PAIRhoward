@@ -17,12 +17,12 @@
                             "title": "Professor"
                         },
                         {
-                            "avatar": "../../src/assets/view/avatar2.png",
+                            "avatar": "../../src/assets/view/avatar1.png",
                             "name": "FirstName2 LastName2, Ph.D. ,MPH",
                             "title": "Associate Professor"
                         },
                         {
-                            "avatar": "../../src/assets/view/avatar3.png",
+                            "avatar": "../../src/assets/view/avatar1.png",
                             "name": "FirstName3 LastName3, M.D. ,Ph.D.",
                             "title": "Assistant Professor"
                         }
@@ -99,7 +99,7 @@
 
         "FacultyList": [
             {
-                "avatar": avatar1,
+                "avatar": "../../src/assets/view/avatar1.png",
                 "name": "FirstName1 LastName1, Ph.D.",
                 "title": "Professor",
                 "introduction": "Dr. FirstName1 LastName1, Ph.D., is a Professor renowned for their pioneering research in computational biology. Their work leverages big data analytics to decode complex biological systems, contributing to advancements in genetic engineering and personalized medicine. Dr. LastName1’s laboratory is at the forefront of developing algorithms that predict molecular behavior, which are crucial for new drug development. As a respected leader in the field, Dr. LastName1 has published numerous influential papers and serves as a mentor to aspiring scientists in this rapidly evolving discipline.\n",
@@ -107,7 +107,7 @@
                 "col5": ""
             },
             {
-                "avatar": avatar2,
+                "avatar": "../../src/assets/view/avatar2.png",
                 "name": "FirstName2 LastName2, Ph.D., MPH",
                 "title": "Associate Professor",
                 "introduction": "Dr. FirstName2 LastName2, Ph.D., MPH, is an Associate Professor with a dual focus on public health and epidemiology. Dr. LastName2’s research integrates advanced statistical methodologies with public health practices to analyze and address the spread and control of infectious diseases. Their work has significantly contributed to improving disease surveillance and intervention strategies. Dr. LastName2 is also an active member of several professional health organizations and frequently collaborates on interdisciplinary projects that aim to enhance community health outcomes.\n",
@@ -115,7 +115,7 @@
                 "col5": ""
             },
             {
-                "avatar": avatar3,
+                "avatar": "../../src/assets/view/avatar3.png",
                 "name": "FirstName3 LastName3, M.D., Ph.D.",
                 "title": "Assistant Professor",
                 "introduction": "Dr. FirstName3 LastName3 is an Assistant Professor specializing in Artificial Intelligence and Healthcare. With a Ph.D. in Computer Science, Dr. LastName3’s research aims to enhance medical diagnostics and treatment through advanced AI algorithms. They have published extensively in this field and teach related courses focusing on AI applications and data ethics in healthcare.",
