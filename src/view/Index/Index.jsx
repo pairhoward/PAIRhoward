@@ -27,10 +27,14 @@ import socialmedia1textIcon from "../../assets/view/linkedin.png"
 import socialmedia1textIcon2 from "../../assets/view/x.png"
 
 
-import avatar1 from "../../assets/view/avatar1.png"
-import avatar2 from "../../assets/view/avatar2.png"
-import avatar3 from "../../assets/view/avatar3.png"
-const avatar = [avatar1, avatar2, avatar3];
+// import avatar1 from "../../assets/view/avatar1.png"
+// import avatar2 from "../../assets/view/avatar2.png"
+// import avatar3 from "../../assets/view/avatar3.png"
+// const avatar = [avatar1, avatar2, avatar3];
+
+const avatarModules = import.meta.glob('../../assets/view/avatar*.{png,jpg}', { eager: true });
+const avatarList = Object.values(avatarModules).map(module => module.default);
+
 
 import "./Index.css"
 
@@ -183,8 +187,9 @@ function Index() {
                                     {data.main.regionOne.left.PIList.map((faculty, index) => (
                                         <div key={index}>
                                             <img
-                                                src={avatar[index % avatar.length]}
-                                                alt={faculty.name}
+                                                src={avatarList[index % avatarList.length]}
+
+                                                alt={`Avatar ${index+1}`}
                                                 className="w-full aspect-square object-cover rounded-sm overflow-hidden"
                                             />
                                             <p
