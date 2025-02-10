@@ -278,7 +278,7 @@ function Index() {
 
                                 <div className='mt-4 border-t border-white pt-4 border-opacity-30 right-content-line4'>
                                     <div className='flex flex-wrap gap-2'>
-                                        <div
+                                        {data.main.regionOne.right.showGoogleScholarButton &&(<div
                                             className='w-48 rounded-md btn bg-white p-4 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all'
                                             onClick={_ => window.open(data.main.regionOne.right.GoogleScholarLink)}
                                             style={{
@@ -292,9 +292,9 @@ function Index() {
                                                 className="w-36 left-0 object-contain" />
 
                                             <span className='ml-2 transition-all text-yellow-400'>→</span>
-                                        </div>
+                                        </div>)}
 
-                                        <div
+                                        {data.main.regionOne.right.showLinkedinBtn &&(<div
                                             className='w-48 rounded-md btn bg-white p-4 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all'
                                             onClick={_ => window.open(data.main.regionOne.right.XLink)}
                                             style={{
@@ -310,8 +310,10 @@ function Index() {
                                             <p className={'ml-3'}>X(twitter)</p>
 
                                             <span className='ml-2 transition-all text-yellow-400'>→</span>
-                                        </div>
-                                        <div
+                                        </div>)}
+
+
+                                        {data.main.regionOne.right.showXBtn &&(<div
                                             className='w-48 rounded-md  btn bg-white p-4 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all'
                                             onClick={_ => window.open(data.main.regionOne.right.LinkedinLink)}
                                             style={{
@@ -327,8 +329,8 @@ function Index() {
                                             <p className={'ml-3'}>Linkedin</p>
 
                                             <span className='ml-2 transition-all text-yellow-400'>→</span>
-                                        </div>
-                                        {/* <div
+                                        </div>)}
+                                        {data.main.regionOne.right.showMoreBtn && (<div
                                             className='w-48 btn bg-white p-4 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all ml-4'
                                             onClick={_ => window.open(data.main.regionOne.right.moreBtnLink)}
                                             style={{
@@ -338,7 +340,7 @@ function Index() {
                                                 fontSize: '18px'
                                             }}>
                                             More About Us <span className='ml-2 transition-all text-yellow-400'>→</span>
-                                        </div> */}
+                                        </div> )}
                                     </div>
                                 </div>
 

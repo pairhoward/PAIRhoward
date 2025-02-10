@@ -43,9 +43,14 @@
                     "text-3-2": "Partner Organizations",
                     "text-3-3": "We collaborate with a vast array of partners across all states and union territories"
                 },
+                "showGoogleScholarBtn": true,
+                "showLinkedinBtn": true,
+                "showXBtn": true,
+                "showMoreBtn": false,
                 "GoogleScholarLink": "https://scholar.google.com/",
                 "LinkedinLink": "https://www.linkedin.com/",
-                "XLink": "https://x.com/"
+                "XLink": "https://x.com/",
+                "moreBtnLink":"https://www.google.com"
             }
         },
         "regionTwo": {
