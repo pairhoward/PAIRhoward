@@ -1,10 +1,10 @@
 {
     "header": {
-        "title": "Sample Lab Name supported by AIM-AHEAD Program for AI Readiness (PAIR)",
-        "main": {
-            "titlePrimary": "Sample Lab Name",
-            "titleSecondary": "supported by AIM-AHEAD Program for AI Readiness (PAIR)"
-        }
+        "title": "Sample Lab Name supported by AIM-AHEAD Program for AI Readiness (PAIR)"
+    },
+    "heroArea":{
+        "title": "Sample Lab Name",
+        "subTitle":"supported by AIM-AHEAD Program for AI Readiness (PAIR)"
     },
     "main": {
         "regionOne": {
@@ -127,8 +127,6 @@
         "publications": [
             {
                 "content": "<p class=\"p1\" style=\"white-space: normal; text-align: center;\"><strong>Enhancing Diagnostic Accuracy through Machine Learning: A Case Study in Predictive Oncology</strong></p><p><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: center;\">Dr. FirstName LastName, Dr. FirstName2 LastName2, Dr. FirstName3 LastName3</p><p><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: left;\"><span class=\"s1\"><strong>Abstract:</strong></span>&nbsp;This study explores the application of machine learning algorithms in the field of oncology, focusing on the development of predictive models that improve the accuracy of cancer diagnostics. Utilizing a dataset comprising patient genetic profiles and historical treatment outcomes, we demonstrate how our model outperforms traditional diagnostic approaches by incorporating real-time data and adaptive learning techniques.</p><p><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: left;\"><span class=\"s1\"><strong>Published in:</strong></span>&nbsp;Journal of AI in Healthcare, Volume 15, Issue 4, August 2025</p><p class=\"p2\" style=\"white-space: normal;\"><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: left;\"><span class=\"s1\"><strong>Keywords:</strong></span>&nbsp;Machine Learning, Oncology, Predictive Models, Diagnostic Accuracy</p><p class=\"p2\" style=\"white-space: normal;\"><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: left;\"><span class=\"s1\"><strong>DOI:</strong></span>&nbsp;12.3456/jaihc.2025.78910</p><p><br/></p>"
-
-
             }
 
         ]

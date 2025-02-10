@@ -54,7 +54,7 @@ function Index() {
     const [bgColor, setBgColor] = useState('rgba(255, 255, 255, 0)'); // 初始颜色为完全透明
     const [opacity1, setOpacity1] = useState(1);
 
-    const titleSecondaryHTML = data.header.main.titleSecondary.replace(/(aim-ahead|aimahead)/gi, match =>
+    const titleSecondaryHTML = data.heroArea.subTitle.replace(/(aim-ahead|aimahead)/gi, match =>
         `<span class="extrabold-text">${match}</span>`
     );
 
@@ -151,7 +151,7 @@ function Index() {
                         <h1 className="w-11/12 lg:w-6/12 text-center absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
                             <p style={{ fontFamily: 'quadon', fontWeight: 600, fontSize: '50px', opacity: opacity1 }}
                                 className="m-0 text-6xl font-bold fadeInSlow">
-                                {data.header.main.titlePrimary}
+                                {data.heroArea.title}
                             </p>
 
                             <div style={{ fontFamily: 'gentona', fontWeight: 400, fontSize: '18px' }}
