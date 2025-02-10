@@ -174,12 +174,13 @@ function Index() {
                             <div
                                 className='lg:w-8/12 left-content text-left lg:border-r lg:pr-20 box-border border-r-white border-opacity-20'>
                                 {/* <img className='w-full shadow-primary' src={LatestNews}  /> */}
+
                                 <div className="grid grid-cols-3 gap-2 shadow-primary p-4 bg-white text-black"
                                      id="bggg23">
                                     {data.main.regionOne.left.PIList.map((faculty, index) => (
                                         <div key={index}>
                                             <img
-                                                src={faculty.avatar}
+                                                src={"../../src/assets/view/avatar1.jpg"}
                                                 alt={faculty.name}
                                                 className="w-full aspect-square object-cover rounded-sm overflow-hidden"
                                             />
