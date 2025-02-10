@@ -12,18 +12,15 @@
             "left": {
                 "PIList": [
                         {
-                            "avatar": "../../src/assets/view/avatar1.png",
                             "name": "FirstName1 LastName1, Ph.D.",
                             "title": "Professor"
                         },
                         {
-                            "avatar": "../../assets/view/avatar1.png",
-                            "name": "FirstName2 LastName2, Ph.D. ,MPH",
+                            "name": "FirstName2 LastName2, Ph.D., MPH",
                             "title": "Associate Professor"
                         },
                         {
-                            "avatar": "../../src/assets/view/avatar1.png",
-                            "name": "FirstName3 LastName3, M.D. ,Ph.D.",
+                            "name": "FirstName3 LastName3, M.D., Ph.D.",
                             "title": "Assistant Professor"
                         }
                     ],
