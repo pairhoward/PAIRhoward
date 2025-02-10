@@ -12,7 +12,7 @@
             "left": {
                 "PIList": [
                         {
-                            "avatar": "../../src/assets/view/avatar1.png",
+                            "avatar": "../../src/assets/view/avatar1.jpg",
                             "name": "FirstName1 LastName1, Ph.D.",
                             "title": "Professor"
                         },
@@ -99,7 +99,7 @@
 
         "FacultyList": [
             {
-                "avatar": "../../src/assets/view/avatar1.png",
+                "avatar": "../../src/assets/view/avatar1.jpg",
                 "name": "FirstName1 LastName1, Ph.D.",
                 "title": "Professor",
                 "introduction": "Dr. FirstName1 LastName1, Ph.D., is a Professor renowned for their pioneering research in computational biology. Their work leverages big data analytics to decode complex biological systems, contributing to advancements in genetic engineering and personalized medicine. Dr. LastName1’s laboratory is at the forefront of developing algorithms that predict molecular behavior, which are crucial for new drug development. As a respected leader in the field, Dr. LastName1 has published numerous influential papers and serves as a mentor to aspiring scientists in this rapidly evolving discipline.\n",
