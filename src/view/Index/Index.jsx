@@ -278,21 +278,26 @@ function Index() {
 
                                 <div className='mt-4 border-t border-white pt-4 border-opacity-30 right-content-line4'>
                                     <div className='flex flex-wrap gap-2'>
-                                        {data.main.regionOne.right.showGoogleScholarButton &&(<div
-                                            className='w-48 rounded-md btn bg-white p-4 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all'
-                                            onClick={_ => window.open(data.main.regionOne.right.GoogleScholarLink)}
-                                            style={{
-                                                color: "#4aa1d4",
-                                                fontFamily: 'gentona',
-                                                fontWeight: 600,
-                                                fontSize: '18px'
-                                            }}>
+                                        {}
 
-                                            <img src={googlescholar} alt="Google Scholar Icon"
-                                                className="w-36 left-0 object-contain" />
 
-                                            <span className='ml-2 transition-all text-yellow-400'>→</span>
-                                        </div>)}
+
+                                            <div
+                                                className='w-48 rounded-md btn bg-white p-4 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all'
+                                                onClick={_ => window.open(data.main.regionOne.right.GoogleScholarLink)}
+                                                style={{
+                                                    color: "#4aa1d4",
+                                                    fontFamily: 'gentona',
+                                                    fontWeight: 600,
+                                                    fontSize: '18px'
+                                                }}>
+
+                                                <img src={googlescholar} alt="Google Scholar Icon"
+                                                     className="w-36 left-0 object-contain" />
+
+                                                <span className='ml-2 transition-all text-yellow-400'>→</span>
+                                            </div>
+
 
                                         {data.main.regionOne.right.showLinkedinBtn &&(<div
                                             className='w-48 rounded-md btn bg-white p-4 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all'
@@ -331,7 +336,7 @@ function Index() {
                                             <span className='ml-2 transition-all text-yellow-400'>→</span>
                                         </div>)}
                                         {data.main.regionOne.right.showMoreBtn && (<div
-                                            className='w-48 btn bg-white p-4 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all ml-4'
+                                            className='w-48 rounded-md btn bg-white p-4 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all'
                                             onClick={_ => window.open(data.main.regionOne.right.moreBtnLink)}
                                             style={{
                                                 color: "#4aa1d4",
