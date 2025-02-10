@@ -13,6 +13,8 @@ import { useNavigate } from "react-router-dom"
 //
 // const avatarList = Object.values(avatars).map(module => module.default);
 
+const avatarModules = import.meta.glob('../../assets/view/avatar*.{png,jpg}', { eager: true });
+const avatarList = Object.values(avatarModules).map(module => module.default);
 
 
 import Header from "../../components/header/Index";
@@ -51,7 +53,8 @@ const index = () => {
                                 <div className='md:flex items-center'>
                                     <div className='mr-10'>
                                         <img className='w-60 rounded-md'
-                                             src={Object.values(import.meta.glob('../../assets/view/avatar*.{png,jpg}', { eager: true }))[index % Object.values(import.meta.glob('../../assets/view/avatar*.{png,jpg}', { eager: true })).length].default}
+                                             src={avatarList[index % avatarList.length]}
+
                                              alt={`Avatar ${index+1}`} />
                                     </div>
                                     <div className='md:mt-0 mt-4 flex-1'>
