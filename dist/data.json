@@ -1,10 +1,10 @@
 {
     "header": {
-        "title": "Sample Lab Name supported by AIM-AHEAD Program for AI Readiness (PAIR)",
-        "main": {
-            "titlePrimary": "Sample Lab Name",
-            "titleSecondary": "supported by AIM-AHEAD Program for AI Readiness (PAIR)"
-        }
+        "title": "Sample Lab Name supported by AIM-AHEAD Program for AI Readiness (PAIR)"
+    },
+    "heroArea":{
+        "title": "Sample Lab Name",
+        "subTitle":"supported by AIM-AHEAD Program for AI Readiness (PAIR)"
     },
     "main": {
         "regionOne": {
@@ -21,9 +21,9 @@
                         },
                         {
                             "name": "FirstName3 LastName3, M.D., Ph.D.",
-                            "title": "Assistant Professor"
+                            "title": "Professor"
                         }
-                    ],
+                ],
                 "text": "Sample Lab Name supported by AIM-AHEAD Program for AI Readiness (PAIR)",
                 "textSubsidiary": "Sample Lab Name, supported by the AIM-AHEAD Program for AI Readiness (PAIR), is at the forefront of integrating artificial intelligence into health research. Our lab focuses on developing AI-driven solutions that enhance diagnostic accuracy, optimize treatment protocols, and improve patient outcomes. Through PAIR, we leverage cutting-edge AI technologies and collaborate with industry leaders to prepare the next generation of researchers for the evolving demands of healthcare innovation."
             },
@@ -100,7 +100,6 @@
 
         "FacultyList": [
             {
-                "avatar": "../../src/assets/view/avatar1.png",
                 "name": "FirstName1 LastName1, Ph.D.",
                 "title": "Professor",
                 "introduction": "Dr. FirstName1 LastName1, Ph.D., is a Professor renowned for their pioneering research in computational biology. Their work leverages big data analytics to decode complex biological systems, contributing to advancements in genetic engineering and personalized medicine. Dr. LastName1’s laboratory is at the forefront of developing algorithms that predict molecular behavior, which are crucial for new drug development. As a respected leader in the field, Dr. LastName1 has published numerous influential papers and serves as a mentor to aspiring scientists in this rapidly evolving discipline.\n",
@@ -108,7 +107,6 @@
                 "col5": ""
             },
             {
-                "avatar": "../../src/assets/view/avatar1.png",
                 "name": "FirstName2 LastName2, Ph.D., MPH",
                 "title": "Associate Professor",
                 "introduction": "Dr. FirstName2 LastName2, Ph.D., MPH, is an Associate Professor with a dual focus on public health and epidemiology. Dr. LastName2’s research integrates advanced statistical methodologies with public health practices to analyze and address the spread and control of infectious diseases. Their work has significantly contributed to improving disease surveillance and intervention strategies. Dr. LastName2 is also an active member of several professional health organizations and frequently collaborates on interdisciplinary projects that aim to enhance community health outcomes.\n",
@@ -116,7 +114,6 @@
                 "col5": ""
             },
             {
-                "avatar": "../../src/assets/view/avatar1.png",
                 "name": "FirstName3 LastName3, M.D., Ph.D.",
                 "title": "Assistant Professor",
                 "introduction": "Dr. FirstName3 LastName3 is an Assistant Professor specializing in Artificial Intelligence and Healthcare. With a Ph.D. in Computer Science, Dr. LastName3’s research aims to enhance medical diagnostics and treatment through advanced AI algorithms. They have published extensively in this field and teach related courses focusing on AI applications and data ethics in healthcare.",
@@ -127,8 +124,6 @@
         "publications": [
             {
                 "content": "<p class=\"p1\" style=\"white-space: normal; text-align: center;\"><strong>Enhancing Diagnostic Accuracy through Machine Learning: A Case Study in Predictive Oncology</strong></p><p><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: center;\">Dr. FirstName LastName, Dr. FirstName2 LastName2, Dr. FirstName3 LastName3</p><p><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: left;\"><span class=\"s1\"><strong>Abstract:</strong></span>&nbsp;This study explores the application of machine learning algorithms in the field of oncology, focusing on the development of predictive models that improve the accuracy of cancer diagnostics. Utilizing a dataset comprising patient genetic profiles and historical treatment outcomes, we demonstrate how our model outperforms traditional diagnostic approaches by incorporating real-time data and adaptive learning techniques.</p><p><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: left;\"><span class=\"s1\"><strong>Published in:</strong></span>&nbsp;Journal of AI in Healthcare, Volume 15, Issue 4, August 2025</p><p class=\"p2\" style=\"white-space: normal;\"><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: left;\"><span class=\"s1\"><strong>Keywords:</strong></span>&nbsp;Machine Learning, Oncology, Predictive Models, Diagnostic Accuracy</p><p class=\"p2\" style=\"white-space: normal;\"><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: left;\"><span class=\"s1\"><strong>DOI:</strong></span>&nbsp;12.3456/jaihc.2025.78910</p><p><br/></p>"
-
-
             }
 
         ]
