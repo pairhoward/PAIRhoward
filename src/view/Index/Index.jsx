@@ -32,8 +32,9 @@ import socialmedia1textIcon2 from "../../assets/view/x.png"
 // import avatar3 from "../../assets/view/avatar3.png"
 // const avatar = [avatar1, avatar2, avatar3];
 
-const avatarModules = import.meta.glob('../../assets/view/avatar*.{png,jpg}', { eager: true });
-const avatarList = Object.values(avatarModules).map(module => module.default);
+const PIavatarModules = import.meta.glob('../../assets/view/PIavatar*.{png,jpg}', { eager: true });
+const PIavatarList = Object.values(PIavatarModules).map(module => module.default);
+
 
 
 import "./Index.css"
@@ -180,29 +181,76 @@ function Index() {
                         <div className='relative mt-8 lg:flex'>
                             <div
                                 className='lg:w-8/12 left-content text-left lg:border-r lg:pr-20 box-border border-r-white border-opacity-20'>
-                                {/* <img className='w-full shadow-primary' src={LatestNews}  /> */}
-
-                                <div className="grid grid-cols-3 gap-2 shadow-primary p-4 bg-white text-black"
-                                     id="bggg23">
-                                    {data.main.regionOne.left.PIList.map((faculty, index) => (
-                                        <div key={index}>
-                                            <img
-                                                src={avatarList[index % avatarList.length]}
-
-                                                alt={`Avatar ${index+1}`}
-                                                className="w-full aspect-square object-cover rounded-sm overflow-hidden"
-                                            />
-                                            <p
-                                                className="mt-1 hover:underline cursor-pointer text-center"
-                                                onClick={() => navigate('/faculty')}
-                                            >
-                                                <strong>{faculty.name}</strong>
-                                                <br/>
-                                                {faculty.title}
-                                            </p>
-                                        </div>
-                                    ))}
-                                </div>
+                                {data.main.regionOne.left.PIList.length === 1 ? (
+                                    // 只有一个时，使用 flex 居中显示，每个子项保持 1/3 宽度
+                                    <div className="flex justify-center shadow-primary p-4 bg-white text-black" id="bggg23">
+                                        {data.main.regionOne.left.PIList.map((faculty, index) => (
+                                            <div key={index} className="w-1/3">
+                                                {PIavatarList[index] && (
+                                                    <img
+                                                        src={PIavatarList[index]}
+                                                        alt={`Avatar ${index + 1}`}
+                                                        className="w-full aspect-square object-cover rounded-sm overflow-hidden"
+                                                    />
+                                                )}
+                                                <p
+                                                    className="mt-1 hover:underline cursor-pointer text-center"
+                                                    onClick={() => navigate('/faculty')}
+                                                >
+                                                    <strong>{faculty.name}</strong>
+                                                    <br />
+                                                    {faculty.title}
+                                                </p>
+                                            </div>
+                                        ))}
+                                    </div>
+                                ) : data.main.regionOne.left.PIList.length === 2 ? (
+                                    // 只有两个时，使用 flex 并列显示，设置间距，每个子项同样保持 1/3 宽度
+                                    <div className="flex justify-center gap-2 shadow-primary p-4 bg-white text-black" id="bggg23">
+                                        {data.main.regionOne.left.PIList.map((faculty, index) => (
+                                            <div key={index} className="w-1/3">
+                                                {PIavatarList[index] && (
+                                                    <img
+                                                        src={PIavatarList[index]}
+                                                        alt={`Avatar ${index + 1}`}
+                                                        className="w-full aspect-square object-cover rounded-sm overflow-hidden"
+                                                    />
+                                                )}
+                                                <p
+                                                    className="mt-1 hover:underline cursor-pointer text-center"
+                                                    onClick={() => navigate('/faculty')}
+                                                >
+                                                    <strong>{faculty.name}</strong>
+                                                    <br />
+                                                    {faculty.title}
+                                                </p>
+                                            </div>
+                                        ))}
+                                    </div>
+                                ) : (
+                                    // 三个或以上时，使用 grid 布局显示
+                                    <div className="grid grid-cols-3 gap-2 shadow-primary p-4 bg-white text-black" id="bggg23">
+                                        {data.main.regionOne.left.PIList.slice(0, 3).map((faculty, index) => (
+                                            <div key={index}>
+                                                {PIavatarList[index] && (
+                                                    <img
+                                                        src={PIavatarList[index]}
+                                                        alt={`Avatar ${index + 1}`}
+                                                        className="w-full aspect-square object-cover rounded-sm overflow-hidden"
+                                                    />
+                                                )}
+                                                <p
+                                                    className="mt-1 hover:underline cursor-pointer text-center"
+                                                    onClick={() => navigate('/faculty')}
+                                                >
+                                                    <strong>{faculty.name}</strong>
+                                                    <br />
+                                                    {faculty.title}
+                                                </p>
+                                            </div>
+                                        ))}
+                                    </div>
+                                )}
                                 <p
                                     style={{
                                         fontFamily: 'gentona',
