@@ -1,4 +1,4 @@
-# AI for Health Equity Research Lab website
+# PAIR Lab website template
 ## React + Vite + TailwindCSS
 
 ## How to edit the website
