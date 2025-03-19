@@ -17,6 +17,7 @@ import PAIRpic from "../../assets/view/PAIR_pic.jpg";
 import Scrollreveal from "scrollreveal"
 import { CSSTransition } from 'react-transition-group';
 
+
 import icon1 from "../../assets/view/icon1.jpg"
 import icon2 from "../../assets/view/icon2.jpg"
 import icon1Bg from "../../assets/view/icon1Bg.jpg"
