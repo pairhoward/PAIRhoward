@@ -41,6 +41,7 @@ const index = () => {
                     <button className='text-center text-base hover:underline' onClick={_ => navigate('/')}>
                         Return to homepage
                     </button>
+
                     Faculty & Student
                 </div>
             </div>
