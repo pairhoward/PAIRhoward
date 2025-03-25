@@ -29,7 +29,7 @@ import socialmedia1textIcon2 from "../../assets/view/x.png"
 
 
 // import avatar1 from "../../assets/view/avatar1.png"
-// import avatar2 from "../../assets/view/avatar2.png"
+// import avatar2 from "../../assets/view/avatar3.png"
 // import avatar3 from "../../assets/view/avatar3.png"
 // const avatar = [avatar1, avatar2, avatar3];
 

@@ -1,4 +1,9 @@
 {
+  "name": "pairhoward",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
   "type": "module",
   "scripts": {
