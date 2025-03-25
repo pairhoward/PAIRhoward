@@ -44,7 +44,7 @@ import "./Index.css"
 import data from "../../../public/data.json"
 
 
-console.log('data', data)
+// console.log('data', data)
 
 
 function Index() {
