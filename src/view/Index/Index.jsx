@@ -39,10 +39,7 @@ import socialmedia1textIcon2 from "../../assets/view/x.png"
 const PIavatarModules = import.meta.glob('../../assets/view/PIavatar*.{png,jpg}', { eager: true });
 const PIavatarList = Object.values(PIavatarModules).map(module => module.default);
 
-
-
 import "./Index.css"
-
 
 import data from "../../../public/data.json"
 
