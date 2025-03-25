@@ -12,16 +12,16 @@
             "left": {
                 "PIList": [
                         {
-                            "name": "FirstName1 LastName1, Ph.D.",
-                            "title": "Professor"
+                            "name": "Marjorie Gondré-Lewis, Ph.D.",
+                            "title": "Professor & Associate Dean"
                         },
                         {
-                            "name": "FirstName2 LastName2, Ph.D., MPH",
-                            "title": "Associate Professor"
+                            "name": "Stuart D. Washington, Ph.D.",
+                            "title": "Postdoctoral Fellow"
                         },
                         {
-                            "name": "FirstName3 LastName3, M.D., Ph.D.",
-                            "title": "Professor"
+                            "name": "Javan Carter, Ph.D.",
+                            "title": ""
                         }
                 ],
                 "text": "Sample Lab Name supported by AIM-AHEAD Program for AI Readiness (PAIR)",
@@ -100,32 +100,39 @@
 
         "FacultyList": [
             {
-                "name": "FirstName1 LastName1, Ph.D.",
-                "title": "Professor",
-                "introduction": "Dr. FirstName1 LastName1, Ph.D., is a Professor renowned for their pioneering research in computational biology. Their work leverages big data analytics to decode complex biological systems, contributing to advancements in genetic engineering and personalized medicine. Dr. LastName1’s laboratory is at the forefront of developing algorithms that predict molecular behavior, which are crucial for new drug development. As a respected leader in the field, Dr. LastName1 has published numerous influential papers and serves as a mentor to aspiring scientists in this rapidly evolving discipline.\n",
+                "name": "Marjorie Gondré-Lewis, Ph.D.",
+                "title": "Professor & Associate Dean",
+                "introduction": "Dr. Marjorie C. Gondré-Lewis  is a tenured Professor of Neuroscience in the Department of Anatomy at The Howard University College of Medicine. Her research is focused on developing Precision Brain Health approaches that will benefit underserved communities.  She leads the Developmental NeuroPsychoPharmacology Laboratory which investigates mechanisms of addiction as well as brain reward pathways associated with nicotine, alcohol and opioids.  The laboratory also focuses on how the impact of early life stress and toxic stress exposure influences later development of neuropsychiatric disorders and substance use disorder (SUD) involving alcohol, nicotine, opioids.  The basic science arm of the laboratory uses rodent models of impaired reward processing to test behavior, pharmacology, genetics, and biochemistry associated with affective disorders and addiction.  The Clinical Translational Research addresses health disparities that result from negative social determinants of health and ancestry-specific genetic variations not considered in treatment strategies.  These are significant barriers to achieving brain health in the African American community, and the goal is to develop personalized solutions that will promote health equity for underserved populations.  Co-morbidities such as SUD, HIV, and other chronic disorders exacerbate the impact on mental and behavioral health. The ultimate long-term goal of our research is to promote Brain Health in underserved communities with considerations for ethnicity-specific genomic variations. \n\n",
                 "col4": "",
                 "col5": ""
             },
             {
-                "name": "FirstName2 LastName2, Ph.D., MPH",
-                "title": "Associate Professor",
-                "introduction": "Dr. FirstName2 LastName2, Ph.D., MPH, is an Associate Professor with a dual focus on public health and epidemiology. Dr. LastName2’s research integrates advanced statistical methodologies with public health practices to analyze and address the spread and control of infectious diseases. Their work has significantly contributed to improving disease surveillance and intervention strategies. Dr. LastName2 is also an active member of several professional health organizations and frequently collaborates on interdisciplinary projects that aim to enhance community health outcomes.\n",
+                "name": "Stuart D. Washington, Ph.D.",
+                "title": "Postdoctoral Fellow",
+                "introduction": "Dr. Stuart D. Washington is using his prior experience to delineate the effects of HIV and substance use disorder on functional connectivity in the human brain.  The Developmental Neuropsychopharmacology Laboratory acquired resting-state fMRI data from controls, people with HIV, people with substance use disorder, and people with a co-morbidity for HIV and substance use disorder.  Dr. Washington is performing fMRI analyses on these data to discern similarities, differences, and interaction effects between these populations.  His previous experience prepared him for the challenges involved in this project.  As a post-doctoral fellow, Dr. Washington became involved in several functional MRI (fMRI) projects on typical and clinical human populations, including children with ASD, veterans with Gulf War Illness (GWI), and patients with Myalgic Encephalopathy/Chronic Fatigue Syndrome (ME/CFS) and Ornithine Transcarbamylase Deficiency.  Dr. Washington co-authored several fMRI papers on people with GWI and/or ME/CFS that employed successfully employed AI/ML techniques.  During his PhD thesis, he performed single-unit, in-vivo electrophysiology on awake mustached bats (Pteronotus parnellii).  He also acquired and analyzed functional and structural MRI data in zebra finches (Taeniopygia guttata) and pale spear-nosed bats (Phyllostomus discolor).",
                 "col4": "",
                 "col5": ""
             },
             {
-                "name": "FirstName3 LastName3, M.D., Ph.D.",
+                "name": "Javan Carter, Ph.D.",
                 "title": "Assistant Professor",
-                "introduction": "Dr. FirstName3 LastName3 is an Assistant Professor specializing in Artificial Intelligence and Healthcare. With a Ph.D. in Computer Science, Dr. LastName3’s research aims to enhance medical diagnostics and treatment through advanced AI algorithms. They have published extensively in this field and teach related courses focusing on AI applications and data ethics in healthcare.",
+                "introduction": "Dr. Javan Carter is a bioinformatic scientist at RTI and an expert in phylogenomic, programming languages, genomic ancestry, and genomic bioinformatic tools.   He is a bioinformatic scientist for the Opioid Meta-Analysis project. This project focuses on using RNAseq summary statistics and raw RNAseq data from several papers on opioid addiction patients using postmortem prefrontal lobe brain tissue for observing expression level differences to conduct a meta-analyze and a replication analysis. Dr. Carter also serves as a bioinformatic scientist for the Type 1 Diabetes project, calculating the Polygenetic Risk Scores (PRS) and Genetic Risk Score (GRS) in infants based on prior GWAS biomarkers associated with type 1 diabetes using WGS data.",
+                "col4": "",
+                "col5": ""
+            },
+            {
+                "name": "Dickson A. Acheampong",
+                "title": "",
+                "introduction": "Mr. Dickson Acheampong is an undergraduate majoring in Biology and Computer Science at Howard University.  He learned about artificial intelligence and machine learning under the direction of Dwayne Dixon PhD, a  graduate of the Department of Mathematics at Howard University.  Mr. Acheampong furthered his own knowledge of machine learning so well that he earned a place at a Google-sponsored Summer training program for AI/ML training in Tallahassee, FL in 2024.  He gave a poster presentation on machine learning based classification of people human immunodeficiency virus (HIV) at Howard University Research Day and another poster presentation on people with substance use disorder at Society for Neuroscience in 2024. ",
                 "col4": "",
                 "col5": ""
             }
+
         ],
         "publications": [
             {
                 "content": "<p class=\"p1\" style=\"white-space: normal; text-align: center;\"><strong>Enhancing Diagnostic Accuracy through Machine Learning: A Case Study in Predictive Oncology</strong></p><p><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: center;\">Dr. FirstName LastName, Dr. FirstName2 LastName2, Dr. FirstName3 LastName3</p><p><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: left;\"><span class=\"s1\"><strong>Abstract:</strong></span>&nbsp;This study explores the application of machine learning algorithms in the field of oncology, focusing on the development of predictive models that improve the accuracy of cancer diagnostics. Utilizing a dataset comprising patient genetic profiles and historical treatment outcomes, we demonstrate how our model outperforms traditional diagnostic approaches by incorporating real-time data and adaptive learning techniques.</p><p><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: left;\"><span class=\"s1\"><strong>Published in:</strong></span>&nbsp;Journal of AI in Healthcare, Volume 15, Issue 4, August 2025</p><p class=\"p2\" style=\"white-space: normal;\"><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: left;\"><span class=\"s1\"><strong>Keywords:</strong></span>&nbsp;Machine Learning, Oncology, Predictive Models, Diagnostic Accuracy</p><p class=\"p2\" style=\"white-space: normal;\"><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: left;\"><span class=\"s1\"><strong>DOI:</strong></span>&nbsp;12.3456/jaihc.2025.78910</p><p><br/></p>"
             }
-
         ]
     },
     "footer": {
