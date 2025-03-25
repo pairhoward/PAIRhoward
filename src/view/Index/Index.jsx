@@ -10,7 +10,10 @@ import background2 from "../../assets/view/background2.jpg";
 import background3 from "../../assets/view/background3.jpg";
 import background4 from "../../assets/view/background4.jpg";
 import background5 from "../../assets/view/background5.jpg";
-const backgrounds = [background1, background2, background3, background4, background5];
+import background6 from "../../assets/view/background6.jpg";
+import background7 from "../../assets/view/background7.png";
+
+const backgrounds = [background1, background2, background3, background4, background5, background6, background7];
 
 import PAIRpic from "../../assets/view/PAIR_pic.jpg";
 

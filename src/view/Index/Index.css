@@ -185,7 +185,7 @@
 }
 
 .slide {
-    animation: fade 36s infinite;
+    animation: fade 42s infinite;
 }
 
 .slide:nth-child(1) { animation-delay: 0s; }
@@ -194,6 +194,7 @@
 .slide:nth-child(4) { animation-delay: 18s; }
 .slide:nth-child(5) { animation-delay: 24s; }
 .slide:nth-child(6) { animation-delay: 30s; }
+.slide:nth-child(7) { animation-delay: 36s; }
 
 
 
