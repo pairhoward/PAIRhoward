@@ -66,7 +66,7 @@
             "titlePrimary": "Program for AI Readiness(PAIR)",
             "titleSecondary": "Learn more about PAIR and how you can get involved",
             "buttonText": "Learn More",
-            "joinNowLink": "https://www.aim-ahead.net/latest-news/aim-ahead-program-for-artificial-intelligence-readiness-pair-cohort-2-experts-coaches-cfa/"
+            "joinNowLink": "https://www.aim-ahead.net/program-for-artificial-intelligence-readiness/"
         },
         "regionFour": {
             "titlePrimary": "Contact Us",
@@ -76,8 +76,8 @@
                 "address": "test@test.edu",
                 "subject": "Sample Lab Name Webpage - Contact Request",
                 "body": {
-                    "greeting": "Dear Dr. [PI Name],",
-                    "content": "I am interested in contacting you to learn more about your Sample Lab Name.",
+                    "greeting": "Dear Dr. Marjorie,",
+                    "content": "I am interested in contacting you to learn more about your AI/ML Addiction and Mental Health Readiness Program.",
                     "closing": "Best regards,"
                 }
             }
@@ -154,7 +154,7 @@
         "item1": "AIM-AHEAD Program",
         "item1Link": "https://www.aim-ahead.net/",
         "item2": "AI Readiness (PAIR)",
-        "item2Link": "https://www.aim-ahead.net/latest-news/aim-ahead-program-for-artificial-intelligence-readiness-pair-cohort-2-experts-coaches-cfa/",
+        "item2Link": "https://www.aim-ahead.net/program-for-artificial-intelligence-readiness/",
         "item3": "Howard University",
         "item3Link": "https://howard.edu",
         "copyright": "AIM-AHEAD Coordinating Center is funded by National Institutes of Health (NIH), Agreement No.: 1OT2OD032581"
