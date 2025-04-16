@@ -76,8 +76,8 @@
                 "address": "test@test.edu",
                 "subject": "Sample Lab Name Webpage - Contact Request",
                 "body": {
-                    "greeting": "Dear Dr. [PI Name],",
-                    "content": "I am interested in contacting you to learn more about your Sample Lab Name.",
+                    "greeting": "Dear Dr. Marjorie,",
+                    "content": "I am interested in contacting you to learn more about your AI/ML Addiction and Mental Health Readiness Program.",
                     "closing": "Best regards,"
                 }
             }
