@@ -24,29 +24,29 @@
                             "title": ""
                         }
                 ],
-                "text": "Sample Lab Name supported by AIM-AHEAD Program for AI Readiness (PAIR)",
-                "textSubsidiary": "Sample Lab Name, supported by the AIM-AHEAD Program for AI Readiness (PAIR), is at the forefront of integrating artificial intelligence into health research. Our lab focuses on developing AI-driven solutions that enhance diagnostic accuracy, optimize treatment protocols, and improve patient outcomes. Through PAIR, we leverage cutting-edge AI technologies and collaborate with industry leaders to prepare the next generation of researchers for the evolving demands of healthcare innovation."
+                "text": "AI/ML Addiction and Mental Health Readiness Program: Part of the Developmental Neuropsychopharmacology Laboratory",
+                "textSubsidiary": "The Developmental NeuroPsychoPharmacology Laboratory investigates mechanisms underlying addiction as well as brain reward pathways associated with nicotine, alcohol and opioids.  The laboratory also focuses on how the impact of early life stress and toxic stress exposure influences later development of substance use disorder (SUD) involving alcohol, nicotine, opioids.  The effects of human immunodeficiency virus (HIV) on the brain parallel those of SUD, with which it is often comorbid.  Co-morbidities such as SUD, HIV, and other chronic disorders exacerbate the impact on mental and behavioral health.  Thus, the laboratory also investigates the bases of HIV-related neurological conditions (e.g., HIV-associated neurological disorder or HAND).  The laboratory has an established record of using rodent models of impaired reward processing to test behavior, pharmacology, genetics, and biochemistry associated with affective disorders and addiction.  Recently, the laboratory has acquired medical histories and functional magnetic resonance imaging (fMRI) data from people living with HIV and SUD.  We aim to apply AI/ML analysis techniques to social determinants of health  and genomics data from these human subjects to predict the likelihood of a given person having SUD and/or HIV.    The ultimate long-term goal of our research is to promote brain health through the application of advanced analysis strategies (e.g., AI/ML) and thereby help clinicians assess health disparities that result from social determinants of health and ancestry-specific genetic variations not considered in most treatment strategies."
             },
             "right": {
                 "one": {
-                    "text-1-1": "10+",
-                    "text-1-2": "Faculty",
-                    "text-1-3": "A diverse team of leading experts drives our academic excellence"
+                    "text-1-1": "",
+                    "text-1-2": "Neuroimaging of People Living with Human Immunodeficiency Virus (HIV) and Substance Use Disorder (SUD)",
+                    "text-1-3": "We have acquired resting state functional magnetic resonance imaging (fMRI) and diffusion tensor imaging (DTI) of people living with HIV but not SUD, people who have SUD but not HIV, and comorbid populations.  Data analyses will emphasize limbic structures (e.g., amygdala, hippocampus, nucleus accumbens, etc.) given their roles in addiction and socialization."
                 },
                 "two": {
-                    "text-2-1": "50+",
-                    "text-2-2": "Projects",
-                    "text-2-3": "Our projects foster interdisciplinary knowledge and offer opportunities for mutual learning"
+                    "text-2-1": "",
+                    "text-2-2": "Understanding High Risk Behavior Using Artificial Intelligence/Machine Learning: Substance Use Disorder, Human Immunodeficiency Virus, and their Co-Morbidities",
+                    "text-2-3": "We have acquired genomic and social determinants of health data from people living with HIV but not SUD, people who have SUD but not HIV, and comorbid populations.  Data analyses will employ LASSO-CV and Consensus Feature Elimination machine learning algorithms to predict who is more likely to have HIV, SUD, or both."
                 },
                 "three": {
-                    "text-3-1": "100+",
-                    "text-3-2": "Partner Organizations",
-                    "text-3-3": "We collaborate with a vast array of partners across all states and union territories"
+                    "text-3-1": "",
+                    "text-3-2": "Amalgamating Genomic, Demographic, and Neuroimaging Data to Enhance the Prediction of Substance Use Disorder and Human Immunodeficiency Virus Prevalence in a Population",
+                    "text-3-3": "We aim to enhance the predictive power of our AI/ML-based analyses by integrating neuroimaging data extracted from people living with HIV, people who have SUD, and comorbid populations with their corresponding genomic and social determinants of health data.  AI/ML algorithms will be selected based on their ability to optimize predictive power.              "
                 },
-                "showLinkedinBtn": true,
+                "showLinkedinBtn": false,
                 "showXBtn": false,
                 "showMoreBtn": false,
-                "GoogleScholarLink": "https://scholar.google.com/",
+                "GoogleScholarLink": "https://scholar.google.com/citations?user=FKKW79oAAAAJ&hl=en",
                 "LinkedinLink": "https://www.linkedin.com/",
                 "XLink": "https://x.com/",
                 "moreBtnLink":"https://www.google.com"
@@ -66,7 +66,7 @@
             "titlePrimary": "Program for AI Readiness(PAIR)",
             "titleSecondary": "Learn more about PAIR and how you can get involved",
             "buttonText": "Learn More",
-            "joinNowLink": "https://www.aim-ahead.net/call-for-proposals-year-2/pair/"
+            "joinNowLink": "https://www.aim-ahead.net/latest-news/aim-ahead-program-for-artificial-intelligence-readiness-pair-cohort-2-experts-coaches-cfa/"
         },
         "regionFour": {
             "titlePrimary": "Contact Us",
@@ -84,16 +84,22 @@
         },
         "EventList": [
             {
-                "col1": "Outstanding Faculty Award",
-                "col2": "December 30, 2024",
-                "col3": "Dr. [PI Name] was awarded the Outstanding Faculty Award, This award is in recognition of her outstanding contributions to XXXXXXX.",
+                "col1": "highly competitive Google ARI Summer Program",
+                "col2": "June-August 2024",
+                "col3": "Dickson A. Acheampong was selected for the highly competitive Google ARI Summer Program in Tallahassee, FL.  This program trains undergraduate students to perform AI/ML analyses on datasets over the course of six weeks ",
+                "colUrl": "None"
+            },
+            {
+                "col1": "Howard University College of Medicine Interdepartmental Seminar -- Introduction to Anatomy/Anatomy Research Fall Seminar Series",
+                "col2": "10/18/2024",
+                "col3": " Understanding addiction and HIV through AI: a predictive analysis powered by machine learning Mr. Dickson A. Acheampong",
                 "colUrl": "None"
             },
 
             {
-                "col1": "AIM-AHEAD Program for Artificial Intelligence Readiness (PAIR) Cohort 2 Experts & Coaches CFA",
-                "col2": "December 30, 2024",
-                "col3": "The AIM-AHEAD Program for Artificial Intelligence Readiness (PAIR) is recruiting Experts and Grant Writing Coaches for the second cohort of the AIM-AHEAD PAIR Program. This program will engage several teams of researchers from institutions facing challenges in developing research capacities to build an AI for Health Disparities Lab within their organization.",
+                "col1": "Howard University College of Medicine Interdepartmental Seminar -- Introduction to Anatomy/Anatomy Research Fall Seminar Series",
+                "col2": "10/25/2024",
+                "col3": "Limbic and Whole-Brain Functional Connectivity in Non-Substance Abusers with HIV: Towards a Machine-Learning Analysis of Neuroimaging Data Dr. Stuart D. Washington",
                 "colUrl": "None"
             }
         ],
@@ -131,7 +137,16 @@
         ],
         "publications": [
             {
-                "content": "<p class=\"p1\" style=\"white-space: normal; text-align: center;\"><strong>Enhancing Diagnostic Accuracy through Machine Learning: A Case Study in Predictive Oncology</strong></p><p><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: center;\">Dr. FirstName LastName, Dr. FirstName2 LastName2, Dr. FirstName3 LastName3</p><p><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: left;\"><span class=\"s1\"><strong>Abstract:</strong></span>&nbsp;This study explores the application of machine learning algorithms in the field of oncology, focusing on the development of predictive models that improve the accuracy of cancer diagnostics. Utilizing a dataset comprising patient genetic profiles and historical treatment outcomes, we demonstrate how our model outperforms traditional diagnostic approaches by incorporating real-time data and adaptive learning techniques.</p><p><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: left;\"><span class=\"s1\"><strong>Published in:</strong></span>&nbsp;Journal of AI in Healthcare, Volume 15, Issue 4, August 2025</p><p class=\"p2\" style=\"white-space: normal;\"><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: left;\"><span class=\"s1\"><strong>Keywords:</strong></span>&nbsp;Machine Learning, Oncology, Predictive Models, Diagnostic Accuracy</p><p class=\"p2\" style=\"white-space: normal;\"><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: left;\"><span class=\"s1\"><strong>DOI:</strong></span>&nbsp;12.3456/jaihc.2025.78910</p><p><br/></p>"
+                "content": "<h2><strong>Limbic and Whole-Brain Functional Connectivity in Non-Substance Abusers with HIV</strong></h2><p>Stuart D. Washington, Kehinde Omisore, Anisa Thomas, Cedric Cole, Tomilowo Abijo, Ashley VanMeter, and Marjorie Gondré-Lewis</p><p>Human immunodeficiency virus (HIV) negatively impacts behavioral health and is co-morbid with neurocognitive and psychiatric disorders, including substance use disorder (SUD).&nbsp; Neuroimaging studies repeatedly show diminished functional connectivity in people infected with HIV.&nbsp; However, previous studies appear to disregard any potential for HIV/SUD co-morbidities, an oversight that represents a potential confound in HIV-related neuroimaging literature.&nbsp; Further, the functional connectivity of limbic neural substrates underlying reward and SUD (e.g., nucleus accumbens, amygdala, and hippocampus) remain unexplored in people living with HIV (PLWH).&nbsp; Here, we obtained resting-state functional magnetic resonance imaging (rsfMRI) data from a small population (N=7) of PLWH who have no history of SUD.&nbsp; Functional connectivity in PLWH had generally reduced functional connectivity relative to healthy controls (N=14), with the greatest differences occurring between visual cortex and cerebellum.&nbsp; Seed-based analyses of left and right nucleus accumbens and hippocampus yielded robust connections with the default mode network in controls.&nbsp; Similar seed-based analyses of the amygdala in controls yielded robust connections with inferior temporal lobe regions rather than the default mode network.&nbsp; Connectivity between corresponding regions in PLWH was reduced but recruited the default mode and inferior temporal networks.&nbsp; Our results suggest that (1) PLWH who do not have SUD show reduced overall functional connectivity relative to controls, consistent with previous rsfMRI studies of PLWH, and (2) this reduced connectivity in PLWH extends to limbic structures underlying reward, even in the absence of SUD.</p>"
+            },
+            {
+                "content": "<h2><strong>Understanding Addiction through AI: a predictive analysis powered by machine learning models</strong></h2><p>Dickson A. Acheampong, Stuart D. Washington, Dewayne A. Dixon, and Marjorie Gondré-Lewis&nbsp;</p><p>Better predictive models are needed to identify people who are more likely to abuse substance or consume drugs such as opioids and&nbsp;cocaine because of the drug's prevalence and the linked socioeconomic and health impact effects that are linked to it. This study investigates how well the machine learning algorithm Lasso regression predicts substance abuse in people based on a variety of socioeconomic and demographic factors, such as age, sex, income, human immunodeficiency virus (HIV) status, and education level. We applied this model to a dataset of people classified as substance abusers with and without HIV and non-users with and without HIV to help identify the most important predictors of substance abuse.&nbsp; The model’s levels of accuracy vary.&nbsp; By providing insights into the potential of machine learning techniques to identify high-risk individuals and enable more targeted interventions, these results advance the study of substance use prediction. These data highlight how crucial it is to include cutting-edge computational techniques into public health initiatives to address substance use disorders. Further, our work creates opportunities for further research to improve predictive models and investigate how well they work for various demographics.</p>"
+            },
+            {
+                "content": "<h2><strong>Limbic and Whole-Brain Functional Connectivity in Non-Substance Abusers with HIV: Towards a Machine-Learning Analysis of Neuroimaging Data</strong></h2><p>Stuart D. Washington</p><p>Human immunodeficiency virus (HIV) negatively impacts behavioral health and is co-morbid with neurocognitive and psychiatric disorders, including substance use disorder (SUD).&nbsp; Neuroimaging studies repeatedly show diminished functional connectivity in people infected with HIV.&nbsp; However, previous studies appear to disregard any potential for HIV/SUD co-morbidities, an oversight that represents a potential confound in HIV-related neuroimaging literature.&nbsp; Further, the functional connectivity of limbic neural substrates underlying reward and SUD (e.g., nucleus accumbens, amygdala, and hippocampus) remain unexplored in people living with HIV (PLWH).&nbsp; Here, we obtained resting-state functional magnetic resonance imaging (rsfMRI) data from a small population (N=7) of PLWH who have no history of SUD.&nbsp; Functional connectivity in PLWH had generally reduced functional connectivity relative to healthy controls (N=14), with the greatest differences occurring between visual cortex and cerebellum.&nbsp; Seed-based analyses of left and right nucleus accumbens and hippocampus yielded robust connections with the default mode network in controls.&nbsp; Similar seed-based analyses of the amygdala in controls yielded robust connections with inferior temporal lobe regions rather than the default mode network.&nbsp; Connectivity between corresponding regions in PLWH was reduced but recruited the default mode and inferior temporal networks.&nbsp; Machine learning algorithms further refined the neuroanatomical features of functional connectivity that distinguish controls from PLWH.&nbsp; Our results suggest that (1) PLWH who do not have SUD show reduced overall functional connectivity relative to controls, consistent with previous rsfMRI studies of PLWH, and (2) this reduced connectivity in PLWH extends to limbic structures underlying reward, even in the absence of SUD.</p>"
+            },
+            {
+                "content": "<h2><strong>Understanding Addiction through AI: A Predictive Analysis Powered by Machine Learning Models</strong></h2><p>Dickson A. Acheampong, Stuart D. Washington, and Marjorie Gondré-Lewis</p><p>Better predictive models are needed to identify people who are more likely to abuse substance or consume drugs such as opioids and&nbsp;cocaine because of the drug's prevalence and the linked socioeconomic and health impact effects that are linked to it. This study investigates how well two machine learning algorithms—Lasso regression, and Random Forest—predict substance abuse in people based on a variety of socioeconomic and demographic factors, such as age, sex, income, and education level. We applied these models to a dataset of people classified as substance abusers and non-users to help identify the most important predictors of substance abuse. According to preliminary findings, the models' levels of accuracy vary. By providing insights into the potential of machine learning techniques to identify high-risk individuals and enable more targeted interventions, this study advances the area of substance use prediction. The results highlight how crucial it is to include cutting-edge computational techniques into public health initiatives to address substance use problems. Furthermore, our work creates opportunities for further research to improve predictive models and investigate how well they work for various demographics.</p>"
             }
         ]
     },
@@ -139,9 +154,9 @@
         "item1": "AIM-AHEAD Program",
         "item1Link": "https://www.aim-ahead.net/",
         "item2": "AI Readiness (PAIR)",
-        "item2Link": "https://www.aim-ahead.net/call-for-proposals-year-2/pair/",
-        "item3": "SAMPLE UNIVERSITY",
-        "item3Link": "https://www.example.edu",
-        "copyright": "AIM-AHEAD Coordinating Center is funded by NIH, Agreement No.: 1OT2OD032581-01"
+        "item2Link": "https://www.aim-ahead.net/latest-news/aim-ahead-program-for-artificial-intelligence-readiness-pair-cohort-2-experts-coaches-cfa/",
+        "item3": "Howard University",
+        "item3Link": "https://howard.edu",
+        "copyright": "AIM-AHEAD Coordinating Center is funded by National Institutes of Health (NIH), Agreement No.: 1OT2OD032581"
     }
 }
